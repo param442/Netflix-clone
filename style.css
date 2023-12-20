@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inconsolata:wght@200;500&family=Libre+Baskerville&family=Noto+Sans:wght@500;600&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffff;
+  font-family: "Caveat", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  background-image: url(../assets/images/netflixclone.jpg);
+  height: 80vh;
+
+  background-size: max(1500px, 100vw);
+  background-position: center center;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.main .box nav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0 0 0;
+  margin: auto;
+  max-width: 80vw;
+}
+.main .box nav > img {
+  width: 10vw;
+}
+.main .box nav .buttons {
+  display: flex;
+  gap: 20px;
+}
+.main .box nav .buttons .btn1 a > button {
+  display: flex;
+  background-color: rgb(8, 5, 5, 0.7);
+  padding: 5px 10px;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main .box nav .buttons .btn2 a > button {
+  background-color: #e50914;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 15px;
+  cursor: pointer;
+}
+.main .box .text {
+  display: flex;
+  height: 75%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  padding: 65px 0 0 0;
+  font-weight: bold;
+}
+.main .box .text span:nth-child(1) {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  width: 78.5%;
+}
+.main .box .text span:nth-child(2) {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main .box .text span:nth-child(3) {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 20px 0 0 0;
+}
+.main .box .text .input input {
+  padding: 10px;
+  width: 20vw;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.main .box .text .input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 40vw;
+  padding: 10px;
+}
+.main .box .text .input .btn3 a > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  width: 192px;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+button:active {
+  transition: 0.1s linear;
+  opacity: 0.8; /* Adjust this value as needed */
+  cursor: pointer;
+}
+.main .speration {
+  height: 11px;
+  background-color: rgb(35, 35, 35);
+}
+.main .section1 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.main .section1 .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+.main .section1 .text .section1-headind > span {
+  display: flex;
+  margin-top: 10px;
+  font-size: 24px;
+  width: 45vw;
+}
+.main .section1 .image {
+  position: relative;
+}
+
+.main .section1 .image video {
+  position: absolute;
+  left: 85px;
+  top: 86px;
+}
+.main .section1 .image img {
+  position: relative;
+  object-fit: cover;
+}
+.main .section2 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.main .section2 .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+.main .section2 .text .section2-headind > span {
+  display: flex;
+
+  font-size: 24px;
+  width: 45vw;
+  margin-top: 10px;
+}
+.main .section2 .image .container {
+  height: 100px;
+  width: 322px;
+  position: relative;
+  display: flex;
+  background-color: black;
+  bottom: 130px;
+  left: 160px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+}
+.main .section2 .image .container .one {
+  padding: 0 10px 0 10px;
+  height: 5rem;
+}
+.main .section2 .image .container span {
+  width: 140px;
+}
+.main .section3 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.main .section3 .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+.main .section3 .text .section3-headind > span {
+  display: flex;
+  margin-top: 10px;
+  font-size: 24px;
+  width: 45vw;
+}
+.main .section3 .image {
+  position: relative;
+}
+
+.main .section3 .image video {
+  position: absolute;
+  left: 108px;
+  top: 34px;
+  width: 420px;
+}
+.main .section3 .image img {
+  position: relative;
+  object-fit: cover;
+}
+.main .section4 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.main .section4 .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+.main .section4 .text .section4-headind > span {
+  display: flex;
+  margin-top: 10px;
+  font-size: 24px;
+  width: 45vw;
+}
+.main .section5 {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding-bottom: 100px;
+}
+.main .section5 h1 {
+  padding: 30px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.main .section5 .questions {
+  height: 77vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .section5 .questions ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .section5 .questions ul li {
+  background-color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  height: 10vh;
+  padding: 0 10px;
+  font-size: 24px;
+}
+.main .section5 .questions h4 {
+  margin-top: 50px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.main .section5 .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .section5 .search .input .btn3 a > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  width: 192px;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.main .section5 .search .input input {
+  padding: 10px;
+  width: 20vw;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.main .section5 .search .input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 40vw;
+  padding: 10px;
+}
+.main .footer {
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 80px;
+}
+.main .footer .questions {
+  margin: auto;
+}
+.main .footer .questions h4 {
+  padding: 0 0 20px 0;
+}
+.main .footer .questions .span {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  width: 80vw;
+  column-gap: 69px;
+  row-gap: 25px;
+  white-space: nowrap;
+}
+
+.main .footer .questions .btn1 {
+  display: flex;
+  padding-top: 20px;
+}
+.main .footer .questions .btn1 a > button {
+  display: flex;
+  background-color: rgb(8, 5, 5, 0.7);
+  padding: 5px 10px;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* media query */
+
+@media (max-width: 640px) {
+  .main .box .text span:nth-child(1) {
+    font-size: 32px;
+    width: 90vw;
+  }
+  .main .box .text .input {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .box .text .input .btn3 a > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    font-size: 22px;
+  }
+  .main .box .text .input input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+  }
+  .main .box nav > img {
+    width: 15vw;
+  }
+  .main .box nav .buttons .btn1 a button > span {
+    display: none;
+  }
+  .main .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .section1 .image {
+    position: relative;
+  }
+  .main .section1 .image video {
+    transform: scale(0.5);
+  }
+  .main .section1 .image img {
+    transform: scale(0.5);
+  }
+
+  .main .section1 .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    top: 100px;
+  }
+  .main .section1 .text .section1-headind > span {
+    display: flex;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 81vw;
+  }
+  .main .section2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main .section2 .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    top: 185px;
+    width: 20vw;
+  }
+  .main .section2 .image > img {
+    transform: scale(0.5);
+    position: relative;
+    top: 50px;
+  }
+  .main .section2 .image .container {
+    transform: scale(0.5);
+    position: relative;
+    bottom: 150px;
+  }
+  .main .section2 .text .section2-headind > span {
+    display: flex;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 71vw;
+    text-align: center;
+    position: relative;
+    right: 20px;
+  }
+  .main .section2 .text .section2-headind {
+    width: 55vw;
+    text-align: center;
+  }
+  .main .section3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .section3 .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    top: 200px;
+    width: 40vw;
+  }
+  .main .section3 .text .section3-headind {
+    text-align: center;
+  }
+  .main .section3 .text .section3-headind > span {
+    display: flex;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 90vw;
+  }
+  .main .section3 .image video {
+    position: relative;
+    top: 320px;
+    transform: scale(0.5);
+  }
+  .main .section3 .image {
+    position: relative;
+    bottom: 100px;
+  }
+  .main .section3 .image img {
+    transform: scale(0.5);
+  }
+  .main .section4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main .section4 .text {
+    display: flex;
+    font-size: 15px;
+    position: relative;
+    top: 80px;
+  }
+  .main .section4 .text .section4-headind {
+    width: 67vw;
+    text-align: center;
+  }
+  .main .section4 .text .section4-headind > span {
+    display: flex;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 80vw;
+    position: relative;
+    right: 20px;
+  }
+  .main .section4 .image img {
+    transform: scale(0.5);
+  }
+  .main .section5 h1 {
+    text-align: center;
+  }
+  .main .section5 .questions ul li {
+    display: flex;
+    font-size: 12px;
+  }
+  .main .section5 .questions h4 {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 56vw;
+  }
+  .main .section5 .search .input {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .section5 .search {
+    position: relative;
+    top: 70px;
+  }
+  .main .section5 .search .input input {
+    display: flex;
+    width: 58vw;
+  }
+  .main .footer {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .footer .questions .span {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 14px;
+    column-gap: 20px;
+  }
+}
